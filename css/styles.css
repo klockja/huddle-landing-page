@@ -1,0 +1,147 @@
+/* Violet: hsl(257, 40%, 49%) */
+body {
+  background-color: #674baf;
+  color: white;
+  margin: 3% 4% 0 4%;
+  background-image: url("/Users/Jimmyk96/Documents/Websites/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+  background-attachment: scroll;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 2px;
+  margin-top: 5%;
+  font-weight: 400;
+}
+
+a {
+  color: #674baf;
+}
+
+.logo {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 2.5%;
+}
+
+.mockups {
+  margin: 0;
+  width: 50%;
+  float: left;
+}
+
+.right-container {
+  margin: 0 0 5% 5%;
+  display: inline-block;
+  width: 45%;
+}
+
+.register-button {
+  margin-top: 20px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 30px;
+  line-height: 30px;
+  color: #674baf;
+  font-family: Open Sans;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 20px 0 #000000;
+  -webkit-box-shadow: 1px 1px 10px 0 #000000;
+  -moz-box-shadow: 1px 1px 10px 0 #000000;
+  border: solid #FFFFFF 0px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-button:hover {
+  background: rgba(255, 255, 255, 0.8);
+  border: solid #FFFFFF 0px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.social {
+  text-align: right;
+}
+
+.social-link {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.social-link:hover {
+  color: lightgrey;
+}
+
+.attribution {
+  margin-top: 60px;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 74%);
+}
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: url("/Users/Jimmyk96/Documents/Websites/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+  .logo {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .right-container {
+    width: 92%;
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .mockups {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .social {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .attribution {
+    margin-top: 0;
+  }
+}
