@@ -2,7 +2,7 @@
 body {
   background-color: #674baf;
   color: white;
-  margin: 3% 4% 0 4%;
+  margin: 5% 5% 0 5%;
   background-image: url("/Users/Jimmyk96/Documents/Websites/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
   background-attachment: scroll;
   font-family: 'Poppins', sans-serif;
@@ -22,19 +22,19 @@ a {
 .logo {
   display: block;
   margin-top: 0;
-  margin-bottom: 2.5%;
+  margin-bottom: 5%;
 }
 
 .mockups {
   margin: 0;
-  width: 50%;
+  width: 55%;
   float: left;
 }
 
 .right-container {
   margin: 0 0 5% 5%;
   display: inline-block;
-  width: 45%;
+  width: 40%;
 }
 
 .register-button {
